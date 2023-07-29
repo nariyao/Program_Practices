@@ -1,0 +1,50 @@
+Ques-1
+_________
+Write a C program that takes 2 number as input and store that number in a variable, First input for radius of a Cirlce and 2nd input for side of a Square. Then calcilate the area of Circle and Square and display it.
+
+Input as :
+Enter radius of Cicle : 12
+Enter side of Square : 5
+
+Output as :
+Area of Circle is : 452.16
+Area of Square is : 25
+
+Ques-2
+__________
+Write a program in C to input number of days. Find and display number of years, months and days.
+        
+Ques-3
+____________
+Write a program that takes two numbers as input and uses the ternary operator to check if the first number is divisible by the second number. Display an appropriate message accordingly.
+
+Input as :
+Enter two Number : 10 5
+
+Output as :
+10 is Divisible by 5.
+
+Ques-4
+____________
+Write a C program that takes a character as input and uses the ternary operator to check if it is a alphabet or a digit . Display an appropriate message accordingly.
+
+Input as : 
+Enter a Character : 5
+
+Output as :
+It is a Digit
+
+
+
+Ques-5
+____________
+Write a C program that takes a character as input and uses the ternary operator to check if it is a vowel or a consonant. Display an appropriate message accordingly.
+
+Input as : 
+Enter a Character : a
+
+Output as :
+It is a vowel
+
+Ques-5
+____________

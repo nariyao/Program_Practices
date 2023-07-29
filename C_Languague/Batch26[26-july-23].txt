@@ -1,0 +1,8 @@
+
+1)  Write c a program to add two number without using + operator
+
+2) Write a C program to add two digits of a given number ...given number is 67 sum of thr digit is 13
+
+3)Write a program to swap two numbers using third variable...
+
+4)Write a C program find the next multiple of 100 of a given three digit number.. Number is 253 output as 300

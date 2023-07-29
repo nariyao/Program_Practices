@@ -1,0 +1,464 @@
+1-Which of the following is a valid expression in C?
+     a-int basic_pay = 23000;
+     b-int basic_pay = 23,000;
+     c-int basic pay = 23000;
+     d-int $basic_pay = 23000;
+
+Answer: a
+------------------------------------------------------------
+2-What will be the output for the following C code?
+
+#include <stdio.h>
+int main()
+{
+    int n = 8;
+    n = n / 3;
+    printf("%d", n);
+    return 0;
+}
+
+1- 2
+2- 1
+3- 3
+4- Compile-time error
+
+Answer: 1
+----------------------------------------------------------------
+3-What will be the output for the following C code?
+	
+#include <stdio.h>
+void main()
+{
+    int y = 4;
+    int x = 9 % 2 * 4 / 2;
+    printf("Value of x is %d", x);
+}
+
+1-Value of x is 3
+2-Value of x is 2
+3-Value of x is 1
+4-Compile-time error
+
+Answer-2
+----------------------------------------------------------------
+4-What will be the output for the following C code?
+
+#include <stdio.h>
+int main()
+{
+    int a = 8;
+    double b = 2.6;
+    int c;
+    c = a + b;
+    printf("%d", c);
+}
+
+1- 10.6
+2- 10
+3- 11
+4- 16
+
+
+Answer: 2
+
+--------------------------------------------------------------------------------
+5-What will be the output for the following C code?
+
+ #include <stdio.h>
+ int main()
+ {
+    int x = 5, y = 2;
+    x *= x - y;
+    printf("%d", x);
+    return 0;
+}
+
+1- 23\
+2- 15
+3- Undefined behavior
+4- 21
+
+Answer: 2
+
+---------------------------------------------------------------------------------
+6-What is output of given value -x -= y + 1;
+
+1- x = x – y + 1
+2- x = -x – y – 1
+3- x = -x + y + 1
+4- x = x – y – 1
+
+Answer 4
+
+----------------------------------------------------------------------------
+7-The expression 4 + 6 / 3 * 2 - 2 + 7 % 3evaluates to
+
+1- 3
+2- 4
+3- 6
+4- 7
+
+Answer: 4
+--------------------------------------------------------------------
+8-The ascending order of precedence of the bit-wise operators &, ^, and | is
+
+1- & ^ |
+2- ^ & |
+3- | ^ &
+4- & | ^
+
+Answer: 1
+
+-----------------------------------------------------------------------------
+9-What will be the output for the following C code?
+
+#include <stdio.h>
+ void main() {
+  int i = 0, j = 1, k = 2, m;
+  m = i++ && j++ || k++;
+  printf("%d %d %d %d", m, i, j, k);
+} 
+
+1-1 2 1 3
+2-1 2 3 3
+3-1 1 1 3
+4-1 1 2 3
+
+Answer-3
+----------------------------------------------------------
+10-What will be the output for the following C code?
+
+ #include <stdio.h>
+ void main() {
+  int i = 10;
+  i = !i>14;
+  printf("i = %d", i);
+} 
+
+1- i = 0
+2- i = 1
+3- compiletime error
+4- runtime error
+
+Answer-1
+--------------------------------------------------------
+11-What will be the output for the following C code?
+
+#include <stdio.h>
+ void main() {
+  int a = 3.5 + 4.5;
+  printf("%d", a);
+} 
+
+1- 7
+2- 8.000000
+3- 8
+4- 7.5
+
+Answer-3
+---------------------------------------------------------------
+12-The statement printf("%d", (a++)); will print
+
+1- the current value of a
+2- the value of a + 1
+3- an error message
+4- garbage
+
+Answer-1
+
+-------------------------------------------------------------
+13-What will be the output for the following C code?
+
+#include <stdio.h>
+
+int main()
+{
+    int X=1, Y;
+    Y = (X==1? 2:0);
+    printf("X value is: %d\n", X);
+    printf("Y value is: %d\n", Y);
+
+    return 0;
+}
+
+1- X value is: 1
+   Y value is: 2
+2- X value is: 2
+   Y value is: 1
+3- X value is: 1
+   Y value is: 0
+4-compiletime error
+
+
+Answer-1
+
+--------------------------------------------------------------------
+14-What will be the output for the following C code?
+
+
+int x = 7;
+int y = 3;
+int result = x / y + y / x;
+
+a) 0
+b) 2
+c) 1
+d) Compiler error
+
+
+Ans-b
+
+----------------------------------------------------
+15-What will be the output for the following C code?
+
+int x = 10;
+int y = 12;
+int result = x != y;
+
+a) 0
+b) 2
+c) 1
+d) Compiler error
+
+Ans-c
+-------------------------------------------------------------------
+16-What is the result of the following expression: (5 >= 3) && (2 != 4)?
+
+a) 0
+b) 1
+c) true
+d) false
+
+Ans-b
+--------------------------------------------------------------------------
+17-What will be the output for the following C code?
+
+#include <stdio.h>
+    int main()
+    {
+        int y = 10000;
+        int y = 34;
+        printf("Hello World! %d\n", y);
+        return 0;
+    }
+
+a) Compile time error
+b) Hello World! 34
+c) Hello World! 1000
+d) Hello World! followed by a junk value
+
+
+Answer: a
+---------------------------------------------------------------
+18-What will be the output for the following C code?
+
+ #include <stdio.h>
+    void main()
+    {
+        int x = 5 * 9 / 3 + 9;
+    }
+
+a) 3.75
+b) Depends on compiler
+c) 24
+d) 3
+
+
+Answer: c
+--------------------------------------------------------------
+19-What will be the output for the following C code?
+
+#include <stdio.h>
+    int main()
+    {
+        short int i = 20;
+        char c = 97;
+        printf("%d, %d, %d\n", sizeof(i), sizeof(c), sizeof(c + i));
+        return 0;
+    }
+
+a) 2, 1, 2
+b) 2, 1, 1
+c) 2, 1, 4
+d) 2, 2, 8
+
+
+Answer: a
+----------------------------------------------------------
+20-What will be the output for the following C code?
+
+ #include <stdio.h>
+    void main()
+    {
+        int x = 1, y = 0, z = 5;
+        int a = x && y && z++;
+        printf("%d", z);
+    }
+a) 6
+b) 5
+c) 0
+d) Varies
+
+
+Answer: b
+----------------------------------------------------------------
+21-What will be the output for the following C code?
+
+#include <stdio.h>
+    void main()
+    {
+        int x = 1, z = 3;
+        int y = x << 3;
+        printf(" %d\n", y);
+    }
+a) -2147483648
+b) -1
+c) Run time error
+d) 8
+
+
+Answer: d
+
+----------------------------------------------------------------------
+22-What will be the output for the following C code?
+#include <stdio.h>
+    void main()
+    {
+        int x = 0, y = 2, z = 3;
+        int a = x & y | z;
+        printf("%d", a);
+    }
+a) 3
+b) 0
+c) 2
+d) Run time error
+
+
+Answer: a
+----------------------------------------------------------------
+23-What will be the output for the following C code?
+
+#include <stdio.h>
+    int main()
+    {
+        int a = 10, b = 5, c = 3;
+        b != !a;
+        c = !!a;
+        printf("%d\t%d", b, c);
+    }
+a) 5 1
+b) 0 3
+c) 5 3
+d) 1 1
+
+
+Answer: a
+-----------------------------------------------------
+24-What will be the output for the following C code?
+
+#include <stdio.h>
+    void main()
+    {
+        int a = 5;
+        int b = ++a + a++ + --a;
+        printf("Value of b is %d", b);
+    }
+
+A. Value of x is 19
+B. Value of x is 21
+C. Value of x is 15
+D. Undefined behaviour
+
+Ans-A
+-----------------------------------------------------
+25-What will be the output for the following C code?
+
+#include <stdio.h>
+    void main()
+    {
+        int k = 8;
+        int x = 0 == 1 && k++;
+        printf("%d%d\n", x, k);
+    }
+
+A. 0 9
+B. 0 8
+C. 1 9
+D. 1 8
+
+Ans-b
+--------------------------------------------------
+26-What will be the output for the following C code?
+
+void main()
+    {
+        char a = 'a';
+        int x = (a % 10)++;
+        printf("%d\n", x);
+    }
+A. 6
+B. Junk value
+C. Compile time error
+D. 7
+
+Ans-c
+------------------------------------------------
+27-What will be the output for the following C code?
+
+
+int main()
+    {
+        int c = 2 ^ 3;
+        printf("%d\n", c);
+    }
+A. 1
+B. 8
+C. 9
+D. 0
+
+Ans-A
+---------------------------------------------------------
+28-What will be the output for the following C code?
+
+ void main()
+    {
+        int x = 97;
+        int y = sizeof(x++);
+        printf("x is %d", x);
+    }
+A. x is 97
+B. x is 98
+C. x is 99
+D. Run time error
+
+Ans-A
+-------------------------------------------------------------
+29-What will be the output for the following C code?
+
+
+ void main()
+    {
+        int a = 5, b = -7, c = 0, d;
+        d = ++a && ++b || ++c;
+        printf("\n%d%d%d%d", a, b, c, d);
+    }
+A. 6  -6  0  0
+B. 6  -5  0  1
+C. -6  -6  0  1
+D. 6  -6  0  1
+
+Ans-D
+----------------------------------------------------------
+30-What will be the output for the following C code?
+void main()
+    {
+        int a = -5;
+        int k = (a++, ++a);
+        printf("%d\n", k);
+    }
+A. -3
+B. -5
+C. 4
+D. Undefined
+
+Ans-A

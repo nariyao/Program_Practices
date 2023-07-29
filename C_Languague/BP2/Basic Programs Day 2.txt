@@ -1,0 +1,36 @@
+Ques-1
+___________
+Swap two number without using thrid variable . Given number a=11, b =21 output as a=21 , b=11.
+
+Ques-2
+___________
+Write a C program to find the next multiple of 100 of a given three digit number . The given number is 234 and the output is 300.
+
+
+Ques-3
+___________
+Write a c program to find the next multiple of 10 of a given two digit number, if the given number's last digit is less than 5 then 
+find the previous multiple of 10 and if the given number's last digit is greater than or equal to 5 then find the next multiple of 10.
+[Dont use if else or ternary operator ]
+
+Case-1
+--------
+Given number is 34 and output is 30 
+
+Case-2
+---------
+Given number is 47 and output is 50
+
+Ques-4
+____________
+Write a C program to find the reverse of two digit number . Given number is 78 and output is 87.
+
+Ques-5
+___________
+A shopkeeper buys a TV set for Rs. 3500 and sells it at a profit of 27%. Apart from this a VAT of 12.7% and Service Charge is 3.87% is charged. 
+Display total selling price, profit along with vat and service charge.
+
+
+
+
+
