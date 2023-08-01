@@ -1,35 +1,60 @@
-Ques-1
-__________
-Write a program that takes input from the user, take some input for centimeter and convert that into inches .
+[Note : Develop all the programs without using loops, any control flow statements, recursion and ternary operator.
 
+Ques-1
+-------------
+Write a C program to convert temperature from Fahrenheit to Celsius.
+C= (F - 32) * (5.0 / 9.0)
+
+Input as :
+Enter temperature in Fahrenheit: 100
+
+Expected output:
+100.00 Fahrenheit is 37.78 Celsius.
 
 Ques-2
-__________
-Write a program that take 5 subject as input from the user . Find out the average mark of the student . And by using ternary operator print the Student is pass or fail as per the average . If the average is greater than 60 then the Student is pass if the avg is less than 60 then the student is fail.
-
-
-Ques - 3
-_____________
-Write a program to take input for seconds from the user , And convert it into Hour, Minutes , Second format.
-
-Ques-4
-____________
-Write a c program to take  input of 3digit number from the user , and add the 1st digit and last digit of that given number.
+-------------
+Write a C program to convert a lowercase character to uppercase take the lowercase character as a input from the user by using scanf().
 
 Input as :
-Enter a three digit number :
-345
+Enter a lowercase character: u
 
-Output as :
-The addition of first and last digit of the given num is : 8
+Expected output :
+Uppercase equivalent: U
+
+Ques-3
+-----------
+Write a C program to calculate the sum of natural numbers from 1 to a given positive integer by the user,take the input from the user by using scanf(). Develop it without using loops.
+
+Input as :
+Enter a positive integer: 10
+
+Expected output:
+The sum of natural numbers from 1 to 10 is: 55
+
+Ques -4
+------------
+Write a C program to find the maximum of three numbers take all the numbers as a input form user by using scanf().
+
+Input as :
+Enter three numbers: 30 10 20
+
+Expected Output :
+Maximum of three numbers: 30
 
 Ques-5
-____________
-Write a C program to swap first and last digit of a given four digit number .Take the input from the user.
+-------------
+Write a C program to take two character input from the user and print the ASCII value of that two character and display its sum.
 
 Input as :
-enter a four digit number :
-6437
+Enter a character: a b
 
-Output as :
-The result is : 7436
+Expected output :
+ASCII value of a is : 97
+ASCII value of b is : 98
+ASCII sum of a & b is : 195
+
+
+
+
+
+

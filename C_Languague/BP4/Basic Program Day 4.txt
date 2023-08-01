@@ -1,0 +1,35 @@
+Ques-1
+__________
+Write a program that takes input from the user, take some input for centimeter and convert that into inches .
+
+
+Ques-2
+__________
+Write a program that take 5 subject as input from the user . Find out the average mark of the student . And by using ternary operator print the Student is pass or fail as per the average . If the average is greater than 60 then the Student is pass if the avg is less than 60 then the student is fail.
+
+
+Ques - 3
+_____________
+Write a program to take input for seconds from the user , And convert it into Hour, Minutes , Second format.
+
+Ques-4
+____________
+Write a c program to take  input of 3digit number from the user , and add the 1st digit and last digit of that given number.
+
+Input as :
+Enter a three digit number :
+345
+
+Output as :
+The addition of first and last digit of the given num is : 8
+
+Ques-5
+____________
+Write a C program to swap first and last digit of a given four digit number .Take the input from the user.
+
+Input as :
+enter a four digit number :
+6437
+
+Output as :
+The result is : 7436
