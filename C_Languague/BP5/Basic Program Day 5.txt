@@ -1,4 +1,4 @@
-[Note : Develop all the programs without using loops, any control flow statements, recursion and ternary operator.
+[Note : Develop all the programs without using loops, any control flow statements, recursion and ternary operator.]
 
 Ques-1
 -------------
