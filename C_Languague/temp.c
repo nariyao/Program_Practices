@@ -28,11 +28,13 @@ int main()
     // a = a/100;
     // a = ++a *100;
 
-    int a = 10,b;
-    // printf("%d",4- -4);                                   
+    // int a = 10,b;
+    // // printf("%d",4- -4);                                   
 
-    b=a++ + ++a;
-    printf("%d , %d, %d, %d ,%d",b,a++,a,++a,a++);
+    // b=a++ + ++a;
+    // printf("%d , %d, %d, %d ,%d",b,a++,a,++a,a++);
+    unsigned int a = -4;
+    printf("%d",3*2--);
     return 0;
 }
 //3)Write a program to swap two numbers using third variable...

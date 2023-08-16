@@ -1,0 +1,137 @@
+Ques-1
+-------------
+Develop below scenario program and take all the input from the user by using scanf.
+
+Title: "Tasty Treats Cafe: Bill Calculator"
+
+Introduction:
+Welcome to Tasty Treats Cafe! We provide a delightful selection of beverages and snacks to satisfy your cravings. Today, you are our esteemed customer, and we are eager to serve you! Let's calculate your bill based on your preferences.
+
+Question:
+How many cups of tea, cups of coffee, and biscuits would you like to order?
+
+Instructions:
+
+Each cup of tea costs ₹15, each cup of coffee costs ₹25, and each biscuit costs ₹10.
+Please provide the quantity for each item you wish to order.
+Example:
+Customer: "I'd like to have 2 cups of tea, 1 cup of coffee, and 3 biscuits, please."
+
+Bill Calculation:
+
+2 cups of tea × ₹15 = ₹30
+1 cup of coffee × ₹25 = ₹25
+3 biscuits × ₹10 = ₹30
+Total Bill:
+₹30 (Tea) + ₹25 (Coffee) + ₹30 (Biscuits) = ₹85
+
+Input as :
+-------------
+Welcome to Tasty Treats Cafe!
+How many cups of tea would you like to order? : 2
+How many cups of coffee would you like to order? : 1
+How many biscuits would you like to order? : 3
+
+Output as :
+-----------------
+2 cups of tea
+1 cup of coffee
+3 biscuits
+Total Bill Amount: ₹85
+Thank you for choosing Tasty Treats Cafe! Please let us know your order, and we will be more than happy to serve you.
+
+Ques-2
+---------
+Develop a program to calculate the volume of a sphere and take the radius input from user by using scanf.
+
+Input as :
+-----------
+Welcome to Sphere Volume Calculator!
+Enter the radius of the sphere: 5
+
+Output as :
+-----------------
+Volume of the sphere is: 523.60 cubic units
+
+Ques-3
+-------------
+Title: My Bakery Shop Invoice Generator
+
+Description:
+You are the owner of a bakery shop and need to create a program to generate invoices for your customers. The program should prompt the user to enter the item they want to buy, the quantity they wish to purchase, and the price of the item. Based on this input, the program should calculate the total cost and display an invoice with all the details, including the item, quantity, price per item, and total cost. At the end of the invoice, don't forget to thank the user for shopping at your bakery shop. Your task is to write a C program that accomplishes this.
+
+Instructions:
+----------------
+-> Display a welcome message along with a separator line to greet the customer.
+-> Ask the customer to enter the item they want to buy and store it in a character array.
+-> Prompt the customer to enter the quantity they wish to purchase and store it in an integer variable.
+-> Get the price of the item from the customer and store it in a floating-point variable.
+-> Calculate the total cost by multiplying the price with the quantity.
+-> Display the invoice with all the details, including item, quantity, price per item, and total cost.
+-> Make sure the total cost is displayed with two decimal places.
+-> End the invoice with a thank-you message for shopping at your bakery shop.
+
+Example Output:
+------------------
+
+Welcome to My Bakery Shop!
+----------------------------
+Enter the item you want to buy: Chocolate Cake
+Enter the quantity you want to purchase: 2
+Enter the price of Chocolate Cake: 250
+
+------ Invoice ------
+Item: Chocolate Cake
+Quantity: 2
+Price per item: Rs.250
+Total cost: Rs.500
+
+Thank you for shopping at My Bakery Shop! Have a nice day!
+You can start by defining the necessary variables and then implement the user interactions using printf and scanf functions. Calculate the total cost and display the invoice accordingly. Finally, remember to thank the customer at the end of the program.
+
+
+Q-4)
+____
+Write a program that takes the total bill amount and the number of people from the user. Calculate and print the amount each person needs to pay, assuming an equal split of the bill.
+
+Input :
+-------
+total bill( in float) ->1200.00
+number of people(in int)-> 5
+
+Output :
+--------
+amount each person needs to pay ->240
+
+Q-5)
+____
+Write a program that takes the weight (in kilograms) and height (in meters) of a person from the user. Calculate and print their BMI with an appropriate message.
+
+Input :
+-------
+weight(kg)-->60
+Height(meters)--> 2
+
+Output :
+--------
+ BMI(float) -->15.00
+Q-6)
+____
+Create a program that takes the principal amount, interest rate, and time in years from the user and calculates the simple interest. Print the result with appropriate messages.
+
+
+Input :
+-------
+principal amount: 4000
+
+interest rate (in percentage): 5
+
+time in years: 3
+
+Output :
+--------
+Simple Interest is: 600.00
+
+
+
+

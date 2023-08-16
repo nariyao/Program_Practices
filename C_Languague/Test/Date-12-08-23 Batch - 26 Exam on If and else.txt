@@ -1,0 +1,121 @@
+                                                      SET-A
+                                           -----------------------------
+
+Ques-1
+-----------
+Write a c program to find out that the student is promoted to next class or he/she should stay in same class.
+if the student age is greater than 5 yr and less than 18yr then ask the student about the marks he got in 3 subjects..
+calculate the average mark of the student .On the basis of the average mark print the below details..
+If the student is below 5yr and more than 18 yr dont allow him in the school..
+
+if the student average is greater than 50% then print the student age,average,and class..
+
+Ex:
+   Student age : 14
+   Class       : 9
+   Average(%)  : 60
+   Congrats! you are promoted to 10th class.
+
+if the student average is less than 50% then print the student details and give a message he/she should stay in the same class..
+
+Ex:
+  Student age : 13
+  Class       : 8
+  Average(%)  : 30
+  Sorry! You are staying in same class 8
+
+Ques-2
+--------------
+Program to take a value from the user as input any alphabet and check whether it is vowel or consonant. Using if-else.
+
+Case-1:
+
+Enter an alphabet: A
+A is a vowel.
+
+Case-2:
+
+Enter an alphabet: c
+c is a consonant.
+
+
+                                                      SET-B
+                                            -----------------------------
+Ques-1
+-----------
+Program to take a value from the user as input any character and check whether it is the alphabet, digit or special character. Using if-else/if-else if
+
+Case-1:
+Enter a character: 7
+7 is a digit.
+
+Case-2:
+Enter a character: a
+a is an alphabet.
+
+Case-3:
+Enter a character: #
+# is a special character.
+
+Ques-2
+------------
+Program to take the hours and minutes as input by the user and the show that whether it is AM or PM using if-else statement
+
+Case-1:
+Enter the hours (in 24-hour format): 10
+Enter the minutes: 30
+
+The time is 10:30 AM
+
+Case-2:
+Enter the hours (in 24-hour format): 19
+Enter the minutes: 45
+
+The time is 07:45 PM
+                                   
+                                                      SET-C
+                                            -----------------------------
+Write a c program to calculate the salary and based on that salary calculate the tax for the person
+based on their designation by following few rules which are below
+
+* 3 Type of Designation are there name as
+ -> Developer
+  (Indicated by D or d)
+ -> Trainer 
+  (Indicated by T or t)
+ -> Manager 
+  (Indicated by M or m)
+
+[Note - For wrong designaton print a message as "Invalid input".
+
+* 3 Type of Extra Allowance are there which will be added in the salary 
+  Home Allowance   =10000
+  Food Allowance   =3000
+  Travel Allowance =10000
+
+
+* If the designation is Developer There salary will be calculated by adding 
+  Total Salary= Salary + Home Allowance
+
+  If the designation is Trainer There salary will be calculated by adding 
+  Total Salary= Salary + Home Allowance + Food Allowance 
+
+  If the designation is Trainer There salary will be calculated by adding 
+  Total Salary= Salary + Home Allowance + Food Allowance + Travel Allowance
+
+* If the Total Salary is greater than 40000 then calculate the tax as 10% from the total salary 
+  else 5% of total salary
+
+[note: Take the Designation and salary from the user and based on the that 
+       calculate Total Salary and also based on Total Salary calculate the tax].
+
+Ques-2
+----------
+Program to check whether a year is a leap year or not by using an if-else statement. Leap year program
+
+Case-1
+Enter a year: 2020
+2020 is a leap year.
+
+
+
