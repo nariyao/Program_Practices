@@ -1,0 +1,114 @@
+Question 1:
+-----------
+Create a base class name as Shape should have the following properties:
+
+Methods:
+methodName:CalculateArea
+return type:double
+accessmodifier:public
+
+methodname:CalculatePerimeter
+return type:double
+acessmodifier:public
+
+Create a sub class name as Circle should have the following properties:
+
+instance variables:
+
+radius double private
+
+create a parametaried constructor
+
+override the CalculateArea method
+write code to calculatearea
+
+override the CalculatePerimeter method
+write code to calculateperimeter
+
+Create a sub class name as Rectangle should have the following properties:
+
+instance variables:
+
+private double length and width
+
+create a parametaried constructor
+
+override the CalculateArea method
+write code to calculatearea
+
+override the CalculatePerimeter method
+write code to calculateperimeter
+
+Create a sub class name as Triangle should have the following properties:
+
+instance variables:
+
+private double sideA,sideB and sideC
+
+create a parametaried constructor
+
+override the CalculateArea method
+write code to calculatearea
+
+override the CalculatePerimeter method
+write code to calculateperimeter
+
+Create main class name as Test 
+create object for Circle,Rectangle and Triangle pass the values using parametarised constructor
+call the CalculateArea method and CalculatePerimeter method.
+
+
+Question 2:
+-----------
+Create a base class name Vehicle should have the following properties:
+
+Instance variables:
+
+Make string public
+Model string public
+Year int public
+Price double public
+create a parametaried constructor
+
+Methods:
+methodname:DisplayInfo
+return type :void
+acessmodifier:public
+write code to display the information
+
+Create a sub class name as Car should have the following properties:
+
+Instance variable:
+
+NumberOfDoors int public
+create a parametaried constructor including base class constructor
+
+override DisplayInfo method 
+write code to display details of base class and sub class
+
+Create a sub class name as Motorcycle should have the following properties:
+
+Instance variable:
+
+Type string public
+create a parametaried constructor including base class constructor
+
+override DisplayInfo method 
+write code to display details of base class and sub class
+
+Create a sub class name as Truck should have the following properties:
+
+Instance variable:
+
+PayloadCapacity double public
+write getters and setters to all variables
+
+override DisplayInfo method 
+write code to display details of base class and sub class
+
+Create main class name as Test 
+create object for Car,Motorcycle and Truck pass the values using getters and setters
+call the DisplayInfo method of each class.
+
+
+

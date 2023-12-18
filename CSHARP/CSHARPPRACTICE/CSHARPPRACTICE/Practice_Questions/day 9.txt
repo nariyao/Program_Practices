@@ -1,0 +1,139 @@
+1.Create an class Sum with the following attributes
+
+Instance Variables:
+
+x:int public
+y:int public
+
+Parameter constructor must initialize x and y
+
+Method:
+Name:GetSum
+returnType:int
+AccessModifier:public
+
+Create another class Test
+
+create object for Sum class pass the values by using constructor and also call the getSum method. 
+User has to enter the values.
+
+
+2.Create an class Person with the following attributes.
+
+Instance Variables: 
+
+Name:string
+Age:int
+Address:string
+
+Parameter constructor must initialize name age and address
+
+Method:
+Name:DisplayInfo
+return type:string 
+accessmodifier:public 
+return the data of the person in this method.
+
+Create another PersonDetails class
+
+create object for Person class pass the values by using constructor and also call the DisplayInfo method. 
+User has to enter the values.
+
+
+
+3.Create an class Book with the following attributes
+
+Instance Variables: 
+
+Title: string private
+Author:string private
+Date:DateTime private
+
+Parameter constructor must initialize title,author and date
+Generate toString Method and return the details of book.
+
+Create another class BookDetails
+
+create object for Book class pass the values by using constructor and print the details of book 
+User has to enter the values(enter date in yyyy-mm-dd) format.
+
+
+
+4.using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+      
+       // Example usage
+        Console.Write("Enter the size of the array: ");
+        int size = Convert.ToInt32(Console.ReadLine());
+
+        int[] array = new int[100];
+        Array1 arrayObj = new Array1(array,size);
+
+        arrayObj.ReadArray();
+        arrayObj.PrintArray();
+    }
+}
+
+class Array1
+{
+    // Instance Variables
+    private int[] arr1;
+    private int length;
+
+    // Parameterized Constructor
+    public Array1(int[] array,int length1)
+    {
+        arr1 = array;
+        length =length1;
+    }
+
+    // Method to read elements into the array from the user
+    public void ReadArray()
+    {
+        Console.WriteLine("Enter the elements of the array:");
+        for (int i = 0; i < length; i++)
+        {
+            Console.Write($"Element {i + 1}: ");
+            arr1[i] = Convert.ToInt32(Console.ReadLine());
+        }
+    }
+
+    // Method to print the elements of the array
+    public void PrintArray()
+    {
+        Console.Write("Array elements: ");
+        foreach (int num in arr1)
+        {
+            Console.Write(num + " ");
+        }
+        Console.WriteLine();
+    }
+}
+
+
+
+
+5.Create a class Array1
+
+Instance Variables:
+int arr1 --> array type
+int length  ---->array length
+
+Create a parametarised constructor
+
+Methods:
+
+Methodname:Sum
+return type: int
+Access modifier:public
+
+Write logic to find the sum of the elements in an array
+
+Create another class Test
+
+Create object for Array1 class and pass the array using constructor also call the method sum
+print the sum element.

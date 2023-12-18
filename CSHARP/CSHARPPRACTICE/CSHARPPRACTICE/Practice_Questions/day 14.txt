@@ -1,0 +1,85 @@
+Question 1:
+------------
+Create a base class name LibraryItem should have the following properties:
+
+Instance variables:
+
+Title(string public),Author(string public),Year(int public),CheckOut(bool public) 
+Create a parametarised constructor
+
+Methods:
+methodname:DisplayInfo
+return type :void
+acessmodifier:public
+write code to display the information
+
+Create a sub class name as Book should have the following properties:
+
+Instance variable:
+
+Genre string public
+create a parametarised constructor including base class constructor
+
+override DisplayInfo method 
+write code to display details of base class and sub class
+
+Create a sub class name as DVD should have the following properties:
+
+Instance variable:
+
+Director string public
+create a parametarised constructor including base class constructor
+
+override DisplayInfo method 
+write code to display details of base class and sub class
+
+Create main class name as Test 
+create object for Book and DVD pass the values using constructor
+call the DisplayInfo method of each class.
+
+Question 2:
+-------------
+Create a base class name Animal should have the following properties:
+
+Instance variables:
+Name(string public),age(int public) initilize using parametaried constructor
+
+Methods:
+Method Name:MakeSound
+return type:void
+acessmodifier:public
+Write code to print the animal sound
+
+Method Name:Move
+return type:void
+acessmodifier:public
+Write code to print animal moment
+
+methodname:DisplayInfo
+return type :void
+acessmodifier:public
+write code to display the information
+
+Create a sub class for Animal class name as Dog should have the following properties:
+
+Instance variable:
+
+Breed (string public)
+
+Initilize name,age and breed using parametaried contructor
+
+override all the methods from base class and write logic for all the methods.
+
+Create a sub class for Animal class name as Bird should have the following properties:
+
+Instance variable:
+
+Species (string public)
+
+Initilize name,age and species using parametaried contructor
+
+override all the methods from base class and write logic for all the methods.
+
+Create main class name as Test 
+create object for Dog and Bird pass the values using constructor
+call the MakeSound,Move and DisplayInfo methods of each class.

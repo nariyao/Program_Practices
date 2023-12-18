@@ -1,0 +1,14 @@
+C:\Users\amitn\OneDrive\Desktop\Program_Practices\CSHARP\CSHARPPRACTICE\CSHARPPRACTICE\obj\Debug\net6.0\CSHARPPRACTICE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amitn\OneDrive\Desktop\Program_Practices\CSHARP\CSHARPPRACTICE\CSHARPPRACTICE\obj\Debug\net6.0\CSHARPPRACTICE.AssemblyInfoInputs.cache
+C:\Users\amitn\OneDrive\Desktop\Program_Practices\CSHARP\CSHARPPRACTICE\CSHARPPRACTICE\obj\Debug\net6.0\CSHARPPRACTICE.AssemblyInfo.cs
+C:\Users\amitn\OneDrive\Desktop\Program_Practices\CSHARP\CSHARPPRACTICE\CSHARPPRACTICE\obj\Debug\net6.0\CSHARPPRACTICE.csproj.CoreCompileInputs.cache
+C:\Users\amitn\OneDrive\Desktop\Program_Practices\CSHARP\CSHARPPRACTICE\CSHARPPRACTICE\bin\Debug\net6.0\CSHARPPRACTICE.exe
+C:\Users\amitn\OneDrive\Desktop\Program_Practices\CSHARP\CSHARPPRACTICE\CSHARPPRACTICE\bin\Debug\net6.0\CSHARPPRACTICE.deps.json
+C:\Users\amitn\OneDrive\Desktop\Program_Practices\CSHARP\CSHARPPRACTICE\CSHARPPRACTICE\bin\Debug\net6.0\CSHARPPRACTICE.runtimeconfig.json
+C:\Users\amitn\OneDrive\Desktop\Program_Practices\CSHARP\CSHARPPRACTICE\CSHARPPRACTICE\bin\Debug\net6.0\CSHARPPRACTICE.dll
+C:\Users\amitn\OneDrive\Desktop\Program_Practices\CSHARP\CSHARPPRACTICE\CSHARPPRACTICE\bin\Debug\net6.0\CSHARPPRACTICE.pdb
+C:\Users\amitn\OneDrive\Desktop\Program_Practices\CSHARP\CSHARPPRACTICE\CSHARPPRACTICE\obj\Debug\net6.0\CSHARPPRACTICE.dll
+C:\Users\amitn\OneDrive\Desktop\Program_Practices\CSHARP\CSHARPPRACTICE\CSHARPPRACTICE\obj\Debug\net6.0\refint\CSHARPPRACTICE.dll
+C:\Users\amitn\OneDrive\Desktop\Program_Practices\CSHARP\CSHARPPRACTICE\CSHARPPRACTICE\obj\Debug\net6.0\CSHARPPRACTICE.pdb
+C:\Users\amitn\OneDrive\Desktop\Program_Practices\CSHARP\CSHARPPRACTICE\CSHARPPRACTICE\obj\Debug\net6.0\CSHARPPRACTICE.genruntimeconfig.cache
+C:\Users\amitn\OneDrive\Desktop\Program_Practices\CSHARP\CSHARPPRACTICE\CSHARPPRACTICE\obj\Debug\net6.0\ref\CSHARPPRACTICE.dll

@@ -1,0 +1,64 @@
+1
+--
+Write a C# program to accept Number of Sides of a Geometrical Shape and print its Name.
+0 Sides  Print the Message   Dot
+1 Side Print the Message      Single Line
+2 Sides Print the Message    Intersecting Or Parallel Line
+3 Sides Print the Message    Triangle
+4 Sides Print the Message    Quadrilateral
+5 Sides Print the Message    Pentagon
+6 Sides Print the Message    Hexagon
+7 Sides Print the Message    Heptagon / Septagon
+8 Sides Print the Message    Octagon
+9 Sides Print the Message    Nonagon
+10 Sides Print the Message  Decagon
+>10 Sides Print the Message  Polygon with More than 10 Sides
+
+2
+---
+Write a C# program to accept any number and print number of digits in it.
+
+3
+---
+Write a C# program to accept Mobile Number, Customer Name, Talk Time used in Minutes Calculate Mobile Bill print on the screen to the user. 
+
+
+4
+---
+Write a C# program to check whether the given number is negative , positive or Zero. Take the input from the user and print appropriate statement 
+as per your input. Develop it by using control flow statement.
+Case-1
+---------
+Input as :
+Enter the number: -1
+Output as :
+The number is negative.
+Case-2
+-------
+Input as :
+Enter the number: 5
+Output as :
+The number is positive.
+
+
+5
+--
+Write a C# program to input amount from user and print minimum number of notes (Rs. 500, 100, 50, 20, 10, 5, 2, 1) required for the amount. How to the minimum number of notes required for the given amount in C# programming. Program to find minimum number of notes required for the given denomination. Logic to find minimum number of denomination for a given amount in C# program.
+Input as :
+Enter the amount: 1275
+Output as :
+Rs. 500 notes: 2
+
+Rs. 100 notes: 2
+
+Rs. 50 notes: 1
+
+Rs. 20 notes: 1
+
+Rs. 10 coins: 0
+
+Rs. 5 coins: 1
+
+Rs. 2 coins: 0
+
+Rs. 1 coins: 0 

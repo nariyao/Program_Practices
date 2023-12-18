@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <title>Cars</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            width: 70%;
+            margin: auto;
+        }
+        .car_box{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(200px,300px));
+            justify-content: flex-start;
+            gap: 20px;
+        }
+        h2{
+            padding: 20px 10px 30px;
+            border-bottom: 2px solid #e2e2e2;
+        }
+        h2>span{
+            font-size: 16px;
+            color: orangered;
+        }
+        .car-card{
+            border-radius: 5px;
+            box-shadow: 0 0 5px #c4c4c4;
+        }
+        .car-img{
+            width: 100%;
+        }
+        .car-img>img{
+            width: 100%;
+            height: auto;
+        }
+        .car-det{
+            width: 100%;
+            padding: 20px 10px;
+        }
+        .car-name{
+            padding: 10px 0;
+        }
+        .car-price{
+            padding-bottom: 20px;
+        }
+        .btn{
+            background-color: transparent;
+            width: 100%;
+            padding: 10px;
+            color: orangered;
+            border: 2px solid orangered;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>The most seached <span>Luxury </span>cars</h2>
+        <div class="car_box">
+            <div class="car-card">
+                <div class="car-img"><img src="../Images/cars/audi.webp" alt=""></div>
+                <div class="car-det">
+                    <div class="car-name">Audi Q8 e-tron</div>
+                    <div class="car-price">Rs. 1.14 Crore<span>*</span></div>
+                    <button class="btn">Check February Offer</button>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="car-img"><img src="../Images/cars/Land-rover.webp" alt=""></div>
+                <div class="car-det">
+                    <div class="car-name">Land Rover Range Rover Velar</div>
+                    <div class="car-price">Rs. 93.00 Lakh<span>*</span></div>
+                    <button class="btn">Check February Offer</button>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="car-img"><img src="../Images/cars/mercedes-benz.webp" alt=""></div>
+                <div class="car-det">
+                    <div class="car-name">Mercedes-Benz GLC</div>
+                    <div class="car-price">Rs. 73.50 Lakh<span>*</span></div>
+                    <button class="btn">Check February Offer</button>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="car-img"><img src="../Images/cars/toyota-vellfire.webp" alt=""></div>
+                <div class="car-det">
+                    <div class="car-name">Toyota Vellfire</div>
+                    <div class="car-price">Rs. 1.20 Crore<span>*</span></div>
+                    <button class="btn">Check February Offer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

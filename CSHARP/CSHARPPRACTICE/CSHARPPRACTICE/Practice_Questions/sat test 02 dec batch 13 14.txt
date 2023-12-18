@@ -1,0 +1,124 @@
+Set-A:
+-------
+
+Question 1:
+------------
+write a c# program to display strong numbers between 1 to 1000 using functions
+
+Name of the function:strong
+return type: string
+parameters:num1 integer type,num2 integer type
+
+
+Sample Input:
+1  
+1000
+
+Sample Output:
+1 2 145
+
+
+Question 2:
+-------------
+write a c# program to display amstrong numbers between 100 to 1000 using functions
+
+Name of the function:amstrong
+return type: string
+parameters:num1 integer type,num2 integer type
+
+
+Sample Input:
+100
+1000
+
+Sample Output:
+ 153 370 371 407
+
+ 
+
+Set-B:
+-------
+
+Question 1:
+------------
+write a c# program to display prime numbers between 1 to 100 using functions
+
+Name of the function:isPrime
+return type: string
+parameters:num1 integer type,num2 integer type
+
+
+Sample Input:
+1
+100
+
+Sample Output:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
+
+
+Question 2:
+------------
+write a c# program to display the given number is perfect number or not using functions
+
+Name of the function:perfect
+return type:static bool
+parameters:num integer type
+
+Note:A perfect number is a positive integer that is equal to the sum of its proper divisors
+
+
+Sample Input:
+Enter a number :28
+
+Sample Output:
+28 is a perfect number
+
+
+
+
+Set-C:
+--------
+
+Question 1:
+------------
+write a c# program to display the given number is spy number or not using functions
+
+Name of the function:spy
+return type:int
+parameters:num integer type
+
+Note:
+A Spy number is a number where the sum of its digits is equal to its product of its digits.
+
+
+Sample Input:
+1124
+Sample Output:
+1124 is a spy number
+
+
+
+
+Question 2:
+-------------
+write a c# program to display the given number is adam number or not using functions
+
+Name of the function:adam
+return type:bool
+parameters:num integer type
+
+
+Sample Input :
+12
+Sample Output:
+12 is a adam number
+
+Note:
+12 ^ 2 = 144
+
+21 ^ 2 = 441
+
+The reverse of 144 is equal to 441 and reverse of 441 is equal to 144 so., 12 is an Adam number.
+
+
+

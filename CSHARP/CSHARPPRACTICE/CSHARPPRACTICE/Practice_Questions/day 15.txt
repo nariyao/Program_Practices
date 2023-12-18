@@ -1,0 +1,86 @@
+
+1.Create a base class name Product should have the following properties:
+
+Instance variables:
+Name(string public)
+Price(double public)
+StockQuantity(int public)
+
+create a parametarised constructor and initilize all the variables
+
+Methods:
+methodname:DisplayInfo
+return type :void
+acessmodifier:public
+write code to display the information
+
+Create a sub class for Product class name as Electronics should have the following properties:
+
+Instance variable:
+
+Brand(string public)
+Model(string public)
+
+Initilize name,Price,StockQuantity,Brand and Model using parametaried contructor
+
+override the DisplayInfo method from base class and write logic for the method.
+
+
+Create a sub class for Product class name as Clothing should have the following properties:
+
+Instance variable:
+
+Size(string public)
+Color(string public)
+
+Initilize name,Price,StockQuantity,Size and Color using parametaried contructor
+
+override the DisplayInfo method from base class and write logic for the method.
+
+Create main class name as Test 
+create object for Electronics and Clothing pass the values using constructor
+call the DisplayInfo method of each class.
+
+
+
+2.Create a base class name Movie should have the following properties:
+
+Instance variables:
+
+Title(string public)
+Artist(string public)
+Duration(double public)
+
+create a parametarised constructor and initilize all the variables
+
+Methods:
+methodname:DisplayInfo
+return type :void
+acessmodifier:public
+write code to display the information
+
+Create a sub class for Movie class name as MovieType should have the following properties:
+
+Instance variable:
+
+Genre(string public)
+
+Initilize Title,Artist,Duration and Genre using parametaried contructor
+
+override the DisplayInfo method from base class and write logic for the method.
+
+Create a sub class for Movie class name as Songs should have the following properties:
+
+Instance variable:
+
+Singer(string public)
+No_of_Songs(int public)
+
+
+Initilize Title,Artist,Duration,Singer and No_of_Songs using parametaried contructor
+
+override the DisplayInfo method from base class and write logic for the method.
+
+Create main class name as Test 
+create object for MovieType and Songs pass the values using constructor
+call the DisplayInfo method of each class.

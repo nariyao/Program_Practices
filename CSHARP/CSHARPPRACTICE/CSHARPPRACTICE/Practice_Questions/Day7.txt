@@ -1,0 +1,51 @@
+1.write a c# program to display the given number is pilendrome or not use functions
+Name of the function:pilendrome
+return type:static bool
+parameters:num integer type
+
+
+Sample Input 1:
+121
+Sample Output:
+121 is a Pilendrome
+
+Sample Input 2:
+122
+Sample Output:
+122 is not a Pilendrome
+
+
+2.write a c# program to display the given number is amstrong number or not use functions
+Name of the function:amstrong
+return type:static bool
+parameters:num integer type
+
+
+Sample Input 1:
+153
+Sample Output:
+153 is a amstrong number
+
+Sample Input 2:
+154
+Sample Output:
+154 is not a amstrong number
+
+
+
+3.write a c# program to display the given number is neon number or not use functions
+Name of the function:neon
+return type:static bool
+parameters:num integer type
+
+
+Sample Input 1:
+9
+Sample Output:
+9 is a neon number
+
+Sample Input 2:
+10
+Sample Output:
+10 is not a neon number
+

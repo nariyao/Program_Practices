@@ -1,0 +1,49 @@
+1.Create a base class name Employee should have the following properties:
+
+Instance variables:
+
+EmployeeId int public
+FirstName string public
+LastName string public
+HireDate DateTime public
+Create parametariesd constructor
+
+Methods:
+methodname:DisplayInfo
+return type :void
+acessmodifier:public
+write code to display the information
+
+Create a sub class name as FullTimeEmployee should have the following properties:
+
+Instance variable:
+
+Salary double public
+create a parametarised constructor including base class constructor
+
+override DisplayInfo method 
+write code to display details of base class and sub class
+
+Create a sub class name as PartTimeEmployee should have the following properties:
+
+Instance variable:
+
+HourlyRate double public
+create a parametarised constructor including base class constructor
+
+override DisplayInfo method 
+write code to display details of base class and sub class
+
+Create a sub class name as Contractor should have the following properties:
+
+Instance variable:
+
+ContractDuration string public
+write getters and setters to all variables
+
+override DisplayInfo method 
+write code to display details of base class and sub class
+
+Create main class name as Test 
+create object for FullTimeEmployee,PartTimeEmployee and Contractor  pass the values using getters and setters
+call the DisplayInfo method of each class.

@@ -1,0 +1,275 @@
+Question 1:
+-------------
+
+using System;
+
+public class PLCons
+{
+    public PLCons()
+    {
+        Console.WriteLine("Parameterless constructor called.");
+    }
+
+    public void DisplayMessage()
+    {
+        Console.WriteLine("Hello from ParameterlessConstructorClass!");
+    }
+}
+
+
+public class PCons
+{
+    public PCons(string message)
+    {
+        Console.WriteLine($"Parameterized constructor called with message: {message}");
+    }
+
+    public void DisplayMessage()
+    {
+        Console.WriteLine("Hello from ParameterizedConstructorClass!");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        PCons Obj = new PCons("This is a parameterized constructor example.");
+        
+        PLCons Obj1= new PLCons();
+      
+        Obj.DisplayMessage();
+        Obj1.DisplayMessage();
+    }
+}
+
+
+Question 2:
+-------------
+using System;
+
+public class OCons
+{
+    private int value;
+
+    public OCons()
+    {
+        value = 0;
+    }
+    public OCons(int val)
+    {
+        value = val;
+    }
+    public OCons(int val1, int val2)
+    {
+        value = val1 + val2;
+    }
+
+    public void DisplayValue()
+    {
+        Console.WriteLine($"The current value is: {value}");
+    }
+}
+
+
+class Program
+{
+    static void Main()
+    {
+        OCons obj1 = new OCons(); 
+        OCons obj2 = new OCons(10);
+        OCons obj3 = new OCons(5, 7); 
+       
+        obj1.DisplayValue(); 
+        obj2.DisplayValue(); 
+        obj3.DisplayValue(); 
+    }
+}
+
+
+Question 3:
+-------------
+using System;
+
+public class ConstructorChainingDemo
+{
+    private int value;
+    public ConstructorChainingDemo()
+        : this(0) 
+    {
+    }
+
+   
+    public ConstructorChainingDemo(int val)
+    {
+        value = val;
+    }
+
+   
+    public ConstructorChainingDemo(int val1, int val2)
+        : this(val1 + val2)
+    {
+    }
+
+    public void DisplayValue()
+    {
+        Console.WriteLine($"The current value is: {value}");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+       
+        ConstructorChainingDemo obj1 = new ConstructorChainingDemo(); 
+        ConstructorChainingDemo obj2 = new ConstructorChainingDemo(10); 
+        ConstructorChainingDemo obj3 = new ConstructorChainingDemo(5,7); 
+
+       
+        obj1.DisplayValue(); 
+        obj2.DisplayValue(); 
+        obj3.DisplayValue(); 
+    }
+}
+
+Question 4:
+-------------
+public class ConstructorChainingDemo
+{
+    public string Name 
+    public int Age 
+
+    
+    public ConstructorChainingDemo(string name, int age)
+    {
+        Name = name;
+        Age = age;
+    }
+
+    public ConstructorChainingDemo(string name) : this(name, 0)
+    {
+       
+    }
+
+    public ConstructorChainingDemo() : this("Unknown")
+    {
+        
+    }
+
+    public void Display()
+    {
+        Console.WriteLine($"Name: {Name}, Age: {Age}");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+       
+        ConstructorChainingDemo obj1 = new ConstructorChainingDemo("Alice", 30);
+        ConstructorChainingDemo obj2 = new ConstructorChainingDemo("Bob");
+        ConstructorChainingDemo obj3 = new ConstructorChainingDemo();
+
+       
+        obj1.Display(); 
+        obj2.Display(); 
+        obj3.Display(); 
+    }
+}
+
+Question 5:
+----------------
+using System;
+
+public class Person
+{
+    public string Name 
+    public int Age 
+
+    public Person()
+    {
+        Name = "Unknown";
+        Age = 0;
+    }
+
+    public Person(string name)
+    {
+        Name = name;
+        Age = 0;
+    }
+
+   
+    public Person(string name, int age)
+    {
+        Name = name;
+        Age = age;
+    }
+
+    public void DisplayInfo()
+    {
+        Console.WriteLine($"Name: {Name}, Age: {Age}");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+       
+        Person person1 = new Person();
+        person1.DisplayInfo();
+
+       
+        Person person2 = new Person("Alice");
+        person2.DisplayInfo();
+
+        
+        Person person3 = new Person("Bob", 30);
+        person3.DisplayInfo();
+    }
+}
+
+
+Question 6:
+----------------
+using System;
+
+public class StaticConstructorDemo
+{
+    
+    public static int StaticField;
+
+    public StaticConstructorDemo()
+    {
+        Console.WriteLine("Instance constructor called.");
+    }
+
+  
+    static StaticConstructorDemo()
+    {
+        Console.WriteLine("Static constructor called.");
+        StaticField = 42;
+    }
+
+    public void Display()
+    {
+        Console.WriteLine($"StaticField: {StaticField}");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+       
+        StaticConstructorDemo.StaticField = 100;
+        StaticConstructorDemo obj = new StaticConstructorDemo();
+
+        Console.WriteLine($"StaticField (after instance constructor): {StaticConstructorDemo.StaticField}");
+
+       
+        obj.Display();
+    }
+}

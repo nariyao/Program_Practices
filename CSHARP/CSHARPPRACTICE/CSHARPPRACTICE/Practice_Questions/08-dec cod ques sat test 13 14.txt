@@ -1,0 +1,181 @@
+Set-A:
+-------
+
+Question 1:
+------------
+Create a Product class to represent products in an online store. The Product class should have the following properties:
+
+Instance Variables:
+
+OnlineAppNaame (string)
+ProductId (int)
+ProductName (string)
+Price (double)
+
+Implement two constructors for the Product class:
+
+1. A parameterized constructor that allows you to set the OnlineAppNaame,ProductId, ProductName and Price 
+2. A default constructor that sets default values 
+
+Methods:
+Name:DisplayInfo
+ReturnType:string
+AccessModifier:public
+return the data of the product
+
+Create another class OnlineOrder
+
+create object for Product class pass the values by using constructor and also call the DisplayInfo method. 
+User has to enter the values.
+
+
+Question 2:
+-------------
+Create a class Array1
+
+Instance Variables:
+int arr1 --> array type
+int length  ---->array length
+
+Create a parametarised constructor
+
+Methods:
+
+Methodname:SecondSmallest
+return type: int
+Access modifier:public
+
+Write logic to find the second smallest element in an array
+
+Create another class Test
+
+Create object for Array1 class and pass the array using constructor also call the method secondsmallest
+print the second smallest element.
+
+
+
+
+
+Set-B:
+-------
+
+Question 1:
+------------
+Create an class Taxi should have the following properties:
+
+Instance Variables:
+
+DriverName:string public
+BookingOTP:int public
+PickupLocation:string public
+DropLocation:string public
+CustomerName:string public
+Price:double public
+
+Implement two constructors for the Taxi class:
+1. A parameterized constructor that allows you to set the DriverName,BookingOTP,PickupLocation,DropLocation,CustomerName and Price.
+2. A default constructor that sets default values.
+
+
+Methods:
+Name:DisplayInfo
+ReturnType:string
+AccessModifier:public
+return the data of the Taxi
+
+Create another class Ola
+
+create object for Taxi class pass the values by using constructor and also call the DisplayInfo method. 
+User has to enter the values.
+
+
+Question 2:
+------------
+Create a class Array1
+
+Instance Variables:
+int arr1 --> array type
+int arr2 --> array type
+int mergedArr --> array type
+int length  ---->array length
+
+Create a parametarised constructor
+
+Methods:
+
+Methodname:MergeArray
+return type: int[]
+Access modifier:public
+
+Write logic to merge the 2 arrays
+
+Create another class Test
+
+Create object for Array1 class and pass the array using constructor also call the method MergeArray
+print the array after merging.
+
+
+
+
+Set-C:
+-------
+
+Question 1:
+-------------
+Create an class Mobile class should have the following properties:
+
+Instance Variables:
+
+MobileBrand:string
+CameraPixels:int
+RAMSize:int
+ROMSize:int
+BatteryCapacity:string
+
+Implement two constructors for the Mobile class:
+1. A parameterized constructor that allows you to set the MobileBrand,CameraPixels,RAMSize,ROMSize and BatteryCapacity.
+2. A default constructor that sets default values.
+
+Methods:
+Name:DisplayInfo
+ReturnType:string
+AccessModifier:public
+return the data of the Mobile
+
+Create another class MobileDetails
+
+create object for Mobile class pass the values by using constructor and also call the DisplayInfo method. 
+User has to enter the values.
+
+
+Question 2:
+-------------
+Create a class Array1
+
+Instance Variables:
+int arr1 --> 2d array type
+int rows  ---->no.of rows in array
+int cols  ---->no.of cols in array
+
+Create a parametarised constructor
+
+Methods:
+
+Methodname:ReadArray
+return type: void
+Access modifier:public
+Write logic to read the 2d array 
+
+Methodname:PrintArray
+return type: void
+Access modifier:public
+Write logic to print the 2d array 
+
+
+Create another class Test
+
+Create object for Array1 class and pass the array using constructor also call the method readarray and printarray
+read the array from the user and print the array.
+
+
+

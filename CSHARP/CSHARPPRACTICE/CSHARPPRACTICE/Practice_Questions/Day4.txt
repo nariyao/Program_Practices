@@ -1,0 +1,36 @@
+1. Write a C# program to accept any three numbers and find the greater number and print on the screen to the user 
+
+2.Write a C# program to accept any number print it as even or odd.
+
+3.Write a C# program to accept Book Name, Author Name, Publisher Name and MRP Calculate Discount Amount, Selling Price and print on the screen to the user. Allow a Discount Percent of 20 for MRP > 500 otherwise Discount Percent of 10. 
+
+4.Write a C# program to accept Age of a person and print the appropriate message like given below. 
+Age Less than 2 years print Message   You are an Infant
+Age 2 to 5 years print Message   You are a Kid
+Age >5 and Less than  13 years print Message   You are a Child
+Age >= 13 and Less than  20 years print Message   You are a Teenager
+Age >=20  and Less than  35 years print Message   You are a Youngster
+Age >=35  and Less than  50 years print Message   You are in Middle Age
+Age >=50 Years print Message   You are in Old Age
+
+5.Write a C# program to take a value from the user as input all sides of a triangle and check whether the triangle is valid or not. Using if-else.
+
+Case-1
+-----------
+Enter the lengths of the sides of the triangle:
+
+Side 1: 5
+Side 2: 7
+Side 3: 9
+The triangle is valid.
+
+Case-2
+------------
+Enter the lengths of the sides of the triangle:
+
+Side 1: 3
+Side 2: 4
+Side 3: 9
+The triangle is not valid.
+
+

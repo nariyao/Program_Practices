@@ -1,0 +1,27 @@
+.net13&14
+--------------
+
+ <1>
+ Create a GovtEmployes table add with column name
+ 
+  CREATE TABLE GovtEmployee (
+    EmployeeID INT
+    First_Name VARCHAR(50),
+    Last_Name VARCHAR(50),
+    Date_of_Birth DATE,
+    Join_Date DATE,
+    Department_Name VARCHAR(50), 
+    Salary  money
+);
+
+(A)  Write a SQL query to find the employee with the highest and lowest salary from the "GovtEmployee" table.
+(B)  Write a SQL query to calculate the age of each Govtemployee based on their date of birth.
+(c)   Write a SQL query to categorize GovtEmployees into "Senior" if their salary is greater than or equal to 50,000 and "Junior" otherwise.
+(d)  Write a SQL query to retrieve all employees from the "GovtEmployees" table whose last name starts with the letter "S."
+ 
+
+<2>
+ You have a table named "Cricketmatch" containing employee records with columns like Playerid, Pname, PDesignation, PSalary, Pcity, and Pcountry
+ first assign the duplicate records more than 8
+ You remove duplicate records from the "Cricketmatch" table.
+ and update column name PSalary to Payment 

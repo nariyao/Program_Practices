@@ -1,0 +1,49 @@
+1
+--
+Write a program to perform addition, subtraction, multiplication between two numbers using 3rd variable.
+
+Perform Addition, Subtraction, Multiplication calculation sequentially when user provides Two numbers. Use third variable to store and print the result.
+
+Example 1:
+
+Input:
+
+Define variable number 1 to : 5
+
+Define variable number 2 to: 6
+
+ 
+
+Output:
+
+Addition Result: 11.0
+
+Subtraction Result: -1.0
+
+Multiplication Result: 30.0
+
+
+
+2
+---
+Write a program to find out the area of circle by taking the value from user
+
+To find the area of a circle you can pass the radius of the circle and then calculate the area using the formula: Area = π * radius * radius
+
+
+3
+--
+Write a program to find the sum and average of three numbers where numbers must be taken from the user
+
+
+Input:
+number 1:5
+number 2:5
+number 3:5
+
+output:
+
+sum = 15
+average =5
+
+ 

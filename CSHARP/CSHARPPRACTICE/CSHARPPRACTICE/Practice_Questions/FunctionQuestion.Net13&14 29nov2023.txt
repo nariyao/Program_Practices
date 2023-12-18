@@ -1,0 +1,26 @@
+ Function Question  .Net 13&14
+------------------------------
+
+Question :1-
+
+ Write A c# prog to Find Area and Parameter of rectangle Using function ()
+
+--------------------------
+ Question :2-
+    
+Write A c# Prog Find Volume and Total Surface Area of Cuboid Using Function ()
+
+----------------------------
+
+ Question : 3-
+
+ Write A c# Proog To perform Basic Airthmatic Operation On Two Number  Using Function()
+
+-----------------------------
+
+Question :4- 
+
+Write A  c# Prog To Calculate Simple Intrest and Total ammount is to be Paisd Using Function()
+
+
+ 

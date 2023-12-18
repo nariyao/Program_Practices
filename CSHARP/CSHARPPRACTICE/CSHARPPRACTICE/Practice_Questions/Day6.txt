@@ -1,0 +1,60 @@
+1.write a c# program to display the even numbers from 1 to 100 and also count of even numbers use functions
+Name of the function:isEven
+return type: void
+
+Sample Input:
+10
+Sample Output:
+2 4 6 8 10
+
+like this upto 100
+
+
+
+2.write a c# program to display the odd numbers from 1 to 100 and also count of odd numbers use functions
+Name of the function:isOdd
+return type: void
+
+Sample Input:
+10
+Sample Output:
+1 3 5 7 9
+
+like this upto 100
+
+
+
+3.write a c# program to display the sum of 1st 5 even numbers sum using functions
+Name of the function:isSum
+return type: void
+
+Sample Input:
+5
+Sample Output:
+30
+
+
+
+
+4.Write a program to print the below output:
+       1
+       1  2
+       1  2  3
+       1  2  3  4
+       1  2  3  4 5
+using functions
+Name of the function:pattern
+return type: void
+
+
+
+
+
+5.Write a program to print the below output:
+         5
+         5 4
+         5 4 3
+         5 4 3 2
+         5 4 3 2 1
+Name of the function:pattern
+return type: void

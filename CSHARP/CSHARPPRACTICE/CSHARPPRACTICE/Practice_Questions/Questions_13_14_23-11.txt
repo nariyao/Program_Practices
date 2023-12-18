@@ -1,0 +1,16 @@
+.NET 13&14
+---------------
+1-Write the C# Program to find the Given Number is Postive And Negative  (Using IF_Else or elseif )
+
+2-Write a C# Program To Find the Given Albhabet is Vowel Or Not   (Using IF-Else or Elseif)
+
+3-Write C# Program To Aceept Any Number Some The User And Print Number Digit in It  (Using IF-Else or elseif)
+
+  8 -->Number Has 1 Digit -->0 to 9
+  45-->Number Has 2 Digit-->10to 99
+  459--> Number Has 3 Digit-->100to999
+ 1458--> Number Has 4  Digit --> 1000 to 9999
+ 24567--> Number Has 5  Digit --> 10000 to 99999
+
+ Greater than 5 Digit --> Number Has More Than 5 Digits
+

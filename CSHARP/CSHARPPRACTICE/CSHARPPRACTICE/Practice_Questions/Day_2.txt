@@ -1,0 +1,126 @@
+1
+using System;
+class Ex{
+static void Main(){
+int a = 5;
+int b = 4;
+a += b % a;
+Console.WriteLine(" a value is"+a);
+}
+}
+
+
+2
+using System;
+class Ex{
+static void Main(){
+int a = 5;
+int b = 10;
+int c = 15;
+int d = 2;
+int result = a++ * ++b - c-- / d++;
+Console.WriteLine($"{a} , {b} , {c} , {result}");
+}
+}
+
+
+3
+using System;
+class Ex{
+static void Main(){
+int x = 3;
+int y = 2;
+int z = x++ * x * --y - y--;
+Console.WriteLine($"{x} , {y} , {z}");
+}
+}
+
+
+4
+using System;
+class Ex{
+static void Main(){
+int i = 10;
+i++;
+i * i;
+Console.WriteLine(i);
+}
+}
+
+
+5
+using System;
+class Ex{
+static void Main(){
+int a=4,b=0,c=0;
+b = --a;
+c = a--;
+Console.WriteLine($"{a} , {b} , {c}");
+}
+}
+
+
+6
+using System;
+class Ex{
+static void Main(){
+int x=0, y=0, z=0;
+x = 9 > 8 > 7;
+y = 9 > 8 > 0;
+z = 9 > 8 > 1;
+printf($" {x} , {y} , {z}");
+}
+}
+
+
+
+7
+using System;
+class Ex{
+static void Main(){
+int a=-1, b=1, c=0, d=0;
+c = !a && b;
+d = !a || b;
+printf($"{a} , {b} , {c} , {d}");
+}
+}
+
+
+8
+using System;
+
+class Ex
+{
+    static void Main()
+    {
+        bool x = true;
+        bool y = false;
+        bool resultAnd = x && y;
+        Console.WriteLine("Logical AND: " + resultAnd);
+        bool resultOr = x || y;
+        Console.WriteLine("Logical OR: " + resultOr);
+        bool resultNot = !x;
+        Console.WriteLine("Logical NOT: " + resultNot);
+    }
+}
+
+
+9
+class Ex{
+static void Main(){
+ int a=4,b=0,c=0;
+b = --a + b++ - ++a;
+c = a-- - ++b - --a;
+Console.WriteLine($"{a} , {b} , {c}");
+}
+}
+
+
+10
+class Ex{
+static void Main(){
+ int a=4,b=3;
+Console.WriteLine(a+b+" this is addition");
+Console.WriteLine("this is concadination "+a+b);
+}
+}

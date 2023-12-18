@@ -1,0 +1,214 @@
+using System;
+
+class HelloWorld
+{
+    static void Main()
+    {
+       int a = 5;
+       a += 3 * 2;
+       Console.WriteLine(a);
+ 
+    }
+}
+
+
+
+2
+using System;
+
+class HelloWorld
+{
+    static void Main()
+    {
+       int a = 5;
+      int b = 10;
+       int c = 15;
+       int result = a++ * ++b - - -c;
+      Console.WriteLine("result = "+ result);
+
+         
+    }
+}
+
+
+3
+using System;
+
+class HelloWorld
+{
+    static void Main()
+    {
+       int x = 3;
+       int y = 2;
+       int z = x++ * (x + y) - y- -;
+     Console.WriteLine("z = "+z);
+
+   }
+}
+
+
+
+4
+using System;
+
+class HelloWorld
+{
+    static void Main()
+    {
+     int x = 10;
+     int y = 5;
+     int z = x - - - y;
+     Console.WriteLine($"x ={x}, y = {y}, z = {z}");
+
+   }
+}
+
+
+5
+using System;
+
+class HelloWorld
+{
+    static void Main()
+    {
+    int x = 3;
+    int y = 2;
+     int z = x++ * (x + y) - - -y;
+     Console.WriteLine("z = "+z);
+
+   }
+}
+
+
+
+6
+using System;
+
+class HelloWorld
+{
+    static void Main()
+    {
+      int x = 15;
+      int y = 2;
+      int z = x / y + x % y;
+      Console.WriteLine("z = "+z);
+ 
+   }
+}
+
+
+
+7
+using System;
+
+class HelloWorld
+{
+    static void Main()
+    {
+      int a = 10;
+      int b = 20;
+      int result = (a > b) && (b < a++) || (a++ < b);
+      Console.WriteLine("result = "+result);
+
+   }
+}
+
+
+
+8
+using System;
+
+class HelloWorld
+{
+    static void Main()
+    {
+      int a = 1, b = 2, c = 3;
+     int result = a++ + ++b + c- - - - -c + ++a + b- - + a- - - b;
+     Console.WriteLine("result = "+result);
+
+   }
+}
+
+
+
+9
+using System;
+
+class HelloWorld
+{
+    static void Main()
+    {
+      int a = 10;
+     int b = 15;
+     int c = a++ +b--;
+   Console.WriteLine("a = {0}, b = {1}, c = {2}", a, b, c);
+
+   }
+}
+
+
+
+10
+
+using System;
+
+class HelloWorld
+{
+    static void Main()
+    {
+     int a = 10, b = 20, c = 10;
+    int result = (a > b) || (b == c) && (c != a);
+    Console.WriteLine("result = "+result);
+
+   }
+}
+
+
+
+11
+using System;
+
+class HelloWorld
+{
+    static void Main()
+    {
+       int a = 5, b = 10, c = 15;
+     int result = !(a <= b) && !(b != c) && !(c >= a);
+      Console.WriteLine("result = "+result);
+
+    }
+}
+
+
+
+12
+using System;
+
+class HelloWorld
+{
+    static void Main()
+    {
+   int a = 15, b = 4, c = 3;
+  int result = (a + b) % c * b;
+     Console.WriteLine("result = "+result);
+
+     
+ }
+}
+
+
+13
+using System;
+
+class HelloWorld
+{
+    static void Main()
+    {
+
+    int a = 3;
+   int b = 4;
+   int result = (a += b) * (b -= 2);
+    Console.WriteLine("result = "+result);
+
+   }
+}

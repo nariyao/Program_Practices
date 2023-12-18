@@ -1,0 +1,114 @@
+1.Create a class Area with the following attributes
+
+Instance Variables:
+
+Length: double private
+Width: double private
+Radious: double private
+
+generate non parametarised constructor initilize default values
+Create Parametarised constructor with two prameters length width and create another parametarised constructor with one parameter radious
+
+Methods:
+Name:AreaofRectangle
+ReturnType: double
+accessmodifier:public
+
+Name:AreaofCircle
+ReturnType: double
+accessmodifier:public
+
+Create another class ShapeAreas
+
+create object for Area class pass the values of rectangle length and widthn and print the area of rectangle
+
+create another object for Area class pass the value of circle radious and print the area of circle
+
+user has to enter the values.
+
+
+2.Create an class Car with the following attributes
+
+Instance Variables:
+
+CarModel:string public
+Color:string public
+CarNumber:int public(last 4 digit number)
+ModelYear:int public
+
+Generate toString Method and return the details of Car.
+
+Create a class constructor must initialize carmodel,color,carnumber and modelyear 
+
+Create another class CarDetails
+
+create object for Car class pass the values by using constructor 
+User has to enter the values.
+
+
+
+3.Create a class Array1
+
+Instance Variables:
+int arr1 --> array type
+int length  ---->array length
+
+Create a parametarised constructor
+
+Methods:
+
+Methodname:firstsmallest
+return type: int
+Access modifier:public
+
+Write logic to find the first smallest element in an array
+
+Create another class Test
+
+Create object for Array1 class and pass the array using constructor also call the method firstsmallest
+print the firstsmallest element.
+
+
+4.Create a class Array1
+
+Instance Variables:
+int arr1 --> array type
+int length  ---->array length
+
+Create a parametarised constructor
+
+Methods:
+
+Methodname:firstlargest
+return type: int
+Access modifier:public
+
+Write logic to find the first largest element in an array
+
+Create another class Test
+
+Create object for Array1 class and pass the array using constructor also call the method firstlargest
+print the first largest element.
+
+
+5.Create a class Array1
+
+Instance Variables:
+int arr1 --> array type
+int length  ---->array length
+
+Create a parametarised constructor
+
+Methods:
+
+Methodname:secondlargest
+return type: int
+Access modifier:public
+
+Write logic to find the second largest element in an array
+
+Create another class Test
+
+Create object for Array1 class and pass the array using constructor also call the method secondlargest
+print the second largest element.
+

@@ -1,0 +1,49 @@
+ Sql task for .net 13
+--------------------
+
+ 1.> 
+ Design a table named Employee with the following columns:
+
+   Eid(int):primary key,
+   Firstname(varchar):
+   Lastname(varchar)
+   Designation(varchar):
+   Birthdate(date):
+   Age(int):
+   Salary(money):
+
+1.1 - Retrieve all the details of Employees who were born between January 1, 2000, and December 31, 2004.
+1.2-  Could you please retrieve a list of all Employees whose salaries are within the range of 25,000 to 30,000? Please provide all their details.
+1.3 -  arrang employee list name wise asc order .
+1.4 - Write a SQL query to find the average salary of all employees in the "Employees" table, rounding the result to the nearest whole number.
+1.5-  Display 5th max salary?
+1.6-  Display latest 4 employee joined?
+1.7-  Display first 3 rows from emp?
+1.8-  Delete  first 2 rows from emp table?
+-----------------------------------------------------------------------------------------------------------------------------------
+
+ 
+ 2-  You are tasked with designing a database to manage a list of Doctors in a hospital. Design a table named DoctorList 
+   with the following columns:
+
+  DoctorID (integer) as the primary key
+  FirstName (varchar) to store the doctor's first name
+  LastName (varchar) to store the doctor's last name
+  Specialization (varchar) to store the doctor's area of specialization
+  ExperienceYears (integer) to store the doctor's years of experience
+  After creating the table, perform the following operations:
+
+  (1.1)  Insert a new doctor record with the following details:
+
+  DoctorID: 101
+  FirstName: 'raaz'
+  LastName: 'shrivastva'
+  Specialization: 'Pediatrics'
+  ExperienceYears: 8
+
+ (1.2) chnage the column name FirstName to MyName 
+
+ (1.3)Due to regulatory requirements, you need to collect email addresses for all doctors. Alter the table to add a new column Email 
+  to store the doctor's email address.
+
+ (1.4)Update the email address of the doctor with DoctorID 101 to 'emily.johnson@example.com'
